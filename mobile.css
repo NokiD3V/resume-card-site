@@ -1,0 +1,121 @@
+@media screen and (max-width:900px) {
+    body{
+        align-items: center;
+        width: 100%;
+    }
+    body, html {
+        overflow-x: hidden;
+    }
+    header{
+        justify-content: center;
+        width: 375px;
+    }
+    .main__page{
+        flex-direction: column-reverse;
+        height: 666px;
+        width: 375px;
+        align-items: center;
+        justify-content: start;
+        margin-top: 35px;
+    }
+    .main__page .main__img{
+        width: 174.38px;
+        height: 180px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .main__text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 312px;
+    }
+    .main__text .title{
+        font-weight: 700;
+        font-size: 32px;
+        width: 312px;
+        text-align: center;
+        margin-top: 43px;
+    }
+    .main__text .description{
+        width: 328px;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 21px;
+    }
+    .main__text .resume__btn{
+        margin-top: 27px;
+    }
+
+
+
+    .recent__posts{
+        width: 100%;
+        height: 680px;
+        
+    }
+    .recent__content{
+        width: 354px;
+    }
+    .recent__text{
+        height: 60px;
+    }
+    .recent__text .title{
+        text-align: center;
+        width: 375px;
+    }
+    .recent__btn{
+        visibility: hidden;
+        width: 0;
+    }
+    .recent__posts .posts{
+        flex-direction: column;
+        align-items: center;
+        height: 586px;
+        justify-content: space-between;
+    }
+    .recent__posts .post{
+        height: 236px;
+        width: 300px;
+        padding: 20px;
+    }
+
+
+
+    .featured{
+        width: 345px;
+        height: 670px;
+    }
+    .featured__title{
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        width: 375px;
+        justify-content: center;
+    }
+    .works li{
+        display: none;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .works li:first-child{
+        display: flex;
+        visibility: visible;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 340px;
+    }
+    .works li:first-child .works__img{
+        width: 339px;
+        height: 230px;
+        border-radius: 6px;
+    }
+    .works__item .title{
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 17px;
+    }
+    
+}
